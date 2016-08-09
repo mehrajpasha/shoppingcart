@@ -2,8 +2,9 @@ package com.niit.shoppingcart.config;
 
 public class Applicationcontextconfig {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Bean(name="dataSource")
+	public DataSource get DataSource();
+
 
 	}
 
